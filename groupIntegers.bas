@@ -11,7 +11,7 @@ sub fill_group(g1 as group)
 		read g1.group_(n)
 	next
 end sub
-sub add_(g1 as group,i as integer)
+sub add_(g1 as group,i as double)
 	if g1.count<999 then
 		g1.group_(g1.count)=i
 		g1.count=g1.count+1
